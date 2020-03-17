@@ -270,17 +270,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/vivo/y67/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/vivo/y67/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldlens_dw9714af_v1.so:system/lib/lib_agoldlens_dw9714af_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldlens_dw9714af_v2.so:system/lib/lib_agoldlens_dw9714af_v2.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldlens_dw9714af_v3.so:system/lib/lib_agoldlens_dw9714af_v3.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldlens_dw9800af_v1.so:system/lib/lib_agoldlens_dw9800af_v1.so \
- vendor/vivo/y67/proprietary/lib/lib_agoldlens_dw9800af_v2.so:system/lib/lib_agoldlens_dw9800af_v2.so \
  vendor/vivo/y67/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/vivo/y67/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/vivo/y67/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
@@ -291,6 +280,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/vivo/y67/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -421,17 +411,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
  vendor/vivo/y67/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/vivo/y67/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so:system/lib64/lib_agoldcam_imx258_mipi_raw_XL_4033_v0.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_TSC_50064_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so:system/lib64/lib_agoldcam_ov13850_mipi_raw_XL_CMB052_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so:system/lib64/lib_agoldcam_ov5648_mipi_raw_TSC_HY517_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so:system/lib64/lib_agoldcam_ov8858_mipi_raw_XL_CMB046_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so:system/lib64/lib_agoldcam_s5k3m2_mipi_raw_SYX_3907A_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldlens_dw9714af_v1.so:system/lib64/lib_agoldlens_dw9714af_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldlens_dw9714af_v2.so:system/lib64/lib_agoldlens_dw9714af_v2.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldlens_dw9714af_v3.so:system/lib64/lib_agoldlens_dw9714af_v3.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldlens_dw9800af_v1.so:system/lib64/lib_agoldlens_dw9800af_v1.so \
- vendor/vivo/y67/proprietary/lib64/lib_agoldlens_dw9800af_v2.so:system/lib64/lib_agoldlens_dw9800af_v2.so \
  vendor/vivo/y67/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
@@ -441,6 +420,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -451,37 +431,3 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
  vendor/vivo/y67/proprietary/xbin/MPED:system/xbin/MPED
-
-# vendor/vivo/y67/proprietary/priv-app/EleButtonSettings/EleButtonSettings.apk:system/priv-app/EleButtonSettings/EleButtonSettings.apk \
- vendor/vivo/y67/proprietary/etc//DTA_Config/AT4/listen_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/listen_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/p2p_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/p2p_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_config.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_config_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/AT4/platform_polling_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/listen_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/p2p_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_config_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Clear2Pay/platform_polling_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/listen_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/listen_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/p2p_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/p2p_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_config_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Comprion/platform_polling_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/listen_config.txt:system/etc/nfc_conformance/DTA_Config/Others/listen_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/listen_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/listen_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/p2p_config.txt:system/etc/nfc_conformance/DTA_Config/Others/p2p_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/p2p_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/p2p_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_config_tagOp.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling.txt \
- vendor/vivo/y67/proprietary/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt:system/etc/nfc_conformance/DTA_Config/Others/platform_polling_tagOp.txt \
