@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
  vendor/vivo/y67/proprietary/bin/agoldnvram:system/bin/agoldnvram \
  vendor/vivo/y67/proprietary/bin/akmd09911:system/bin/akmd09911 \
- vendor/vivo/y67/proprietary/bin/akmd8963:system/bin/akmd8963 \
  vendor/vivo/y67/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/vivo/y67/proprietary/bin/ami304d:system/bin/ami304d \
  vendor/vivo/y67/proprietary/bin/atcid:system/bin/atcid \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
  vendor/vivo/y67/proprietary/bin/mfv_ut:system/bin/mfv_ut \
  vendor/vivo/y67/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
- vendor/vivo/y67/proprietary/bin/msensord:system/bin/msensord \
  vendor/vivo/y67/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
  vendor/vivo/y67/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
  vendor/vivo/y67/proprietary/bin/muxreport:system/bin/muxreport \
@@ -75,12 +73,10 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/s62xd:system/bin/s62xd \
  vendor/vivo/y67/proprietary/bin/slpd:system/bin/slpd \
  vendor/vivo/y67/proprietary/bin/sn:system/bin/sn \
- vendor/vivo/y67/proprietary/bin/spm_loader:system/bin/spm_loader \
  vendor/vivo/y67/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/vivo/y67/proprietary/bin/terservice:system/bin/terservice \
  vendor/vivo/y67/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/vivo/y67/proprietary/bin/wifi2agps:system/bin/wifi2agps \
- vendor/vivo/y67/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/vivo/y67/proprietary/bin/xlog:system/bin/xlog \
  vendor/vivo/y67/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
