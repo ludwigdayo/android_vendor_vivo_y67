@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/magd:system/bin/magd \
  vendor/vivo/y67/proprietary/bin/mfv_ut:system/bin/mfv_ut \
  vendor/vivo/y67/proprietary/bin/radvd:system/bin/radvd \
+ vendor/vivo/y67/proprietary/bin/xlog:system/bin/xlog \
  vendor/vivo/y67/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
@@ -147,7 +148,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
  vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
  vendor/vivo/y67/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
- vendor/vivo/y67/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
  vendor/vivo/y67/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
  vendor/vivo/y67/proprietary/lib/libcam.utils.cpuctrl.so:system/lib/libcam.utils.cpuctrl.so \
  vendor/vivo/y67/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
@@ -323,7 +323,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
  vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
  vendor/vivo/y67/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
- vendor/vivo/y67/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
  vendor/vivo/y67/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
  vendor/vivo/y67/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
  vendor/vivo/y67/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
@@ -451,7 +450,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/vivo/y67/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
- vendor/vivo/y67/proprietary/xbin/mnld:system/xbin/mnld \
  vendor/vivo/y67/proprietary/xbin/MPED:system/xbin/MPED
 
 # vendor/vivo/y67/proprietary/priv-app/EleButtonSettings/EleButtonSettings.apk:system/priv-app/EleButtonSettings/EleButtonSettings.apk \
