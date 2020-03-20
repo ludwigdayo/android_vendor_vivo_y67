@@ -89,19 +89,23 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
- vendor/vivo/y67/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
- vendor/vivo/y67/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle.bin:system/etc/firmware/pcm_deepidle.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_by_mp1.bin:system/etc/firmware/pcm_deepidle_by_mp1.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_mcdi_ddrdfs.bin:system/etc/firmware/pcm_mcdi_ddrdfs.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs.bin:system/etc/firmware/pcm_sodi_ddrdfs.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend.bin:system/etc/firmware/pcm_suspend.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
  vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/catcher_filter_3_3g_n.bin:system/etc/firmware/catcher_filter_3_3g_n.bin \
  vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_by_mp1_m.bin:system/etc/firmware/pcm_deepidle_by_mp1_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend_m.bin:system/etc/firmware/pcm_suspend_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_m.bin:system/etc/firmware/pcm_deepidle_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/em_filter_1_ulwctg_n.bin:system/etc/firmware/em_filter_1_ulwctg_n.bin \
  vendor/vivo/y67/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/vivo/y67/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
+ vendor/vivo/y67/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_mcdi_ddrdfs_m.bin:system/etc/firmware/pcm_mcdi_ddrdfs_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/wifi_fw.cfg:system/etc/firmware/wifi_fw.cfg \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/modem_3_3g_n.img:system/etc/firmware/modem_3_3g_n.img \
+ vendor/vivo/y67/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
