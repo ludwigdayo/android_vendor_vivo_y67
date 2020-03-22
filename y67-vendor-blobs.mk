@@ -18,14 +18,65 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/AcdApiDaemon:system/bin/AcdApiDaemon \
  vendor/vivo/y67/proprietary/bin/aee:system/bin/aee \
  vendor/vivo/y67/proprietary/bin/aee_archive:system/bin/aee_archive \
+ vendor/vivo/y67/proprietary/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
+ vendor/vivo/y67/proprietary/bin/akmd09911:system/bin/akmd09911 \
+ vendor/vivo/y67/proprietary/bin/akmd8963:system/bin/akmd8963 \
+ vendor/vivo/y67/proprietary/bin/akmd8975:system/bin/akmd8975 \
+ vendor/vivo/y67/proprietary/bin/ami304d:system/bin/ami304d \
+ vendor/vivo/y67/proprietary/bin/atcid:system/bin/atcid \
+ vendor/vivo/y67/proprietary/bin/atci_service:system/bin/atci_service \
+ vendor/vivo/y67/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
  vendor/vivo/y67/proprietary/bin/autobt:system/bin/autobt \
+ vendor/vivo/y67/proprietary/bin/autokd:system/bin/autokd \
+ vendor/vivo/y67/proprietary/bin/bmm050d:system/bin/bmm050d \
+ vendor/vivo/y67/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
+ vendor/vivo/y67/proprietary/bin/dhcp6c:system/bin/dhcp6c \
  vendor/vivo/y67/proprietary/bin/dhcp6ctl:system/bin/dhcp6ctl \
  vendor/vivo/y67/proprietary/bin/dhcp6s:system/bin/dhcp6s \
+ vendor/vivo/y67/proprietary/bin/dmlog:system/bin/dmlog \
+ vendor/vivo/y67/proprietary/bin/dm_agent_binder:system/bin/dm_agent_binder \
+ vendor/vivo/y67/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
+ vendor/vivo/y67/proprietary/bin/em_svr:system/bin/em_svr \
  vendor/vivo/y67/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
+ vendor/vivo/y67/proprietary/bin/fuelgauged:system/bin/fuelgauged \
+ vendor/vivo/y67/proprietary/bin/gas_srv:system/bin/gas_srv \
+ vendor/vivo/y67/proprietary/bin/ged_srv:system/bin/ged_srv \
+ vendor/vivo/y67/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
+ vendor/vivo/y67/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+ vendor/vivo/y67/proprietary/bin/guiext-server:system/bin/guiext-server \
+ vendor/vivo/y67/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
  vendor/vivo/y67/proprietary/bin/lsm303md:system/bin/lsm303md \
  vendor/vivo/y67/proprietary/bin/magd:system/bin/magd \
+ vendor/vivo/y67/proprietary/bin/matv:system/bin/matv \
+ vendor/vivo/y67/proprietary/bin/mc6420d:system/bin/mc6420d \
+ vendor/vivo/y67/proprietary/bin/mdlogger:system/bin/mdlogger \
+ vendor/vivo/y67/proprietary/bin/md_ctrl:system/bin/md_ctrl \
+ vendor/vivo/y67/proprietary/bin/memsicd:system/bin/memsicd \
+ vendor/vivo/y67/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
  vendor/vivo/y67/proprietary/bin/mfv_ut:system/bin/mfv_ut \
+ vendor/vivo/y67/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
+ vendor/vivo/y67/proprietary/bin/msensord:system/bin/msensord \
+ vendor/vivo/y67/proprietary/bin/MtkCodecService:system/bin/MtkCodecService \
+ vendor/vivo/y67/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
+ vendor/vivo/y67/proprietary/bin/muxreport:system/bin/muxreport \
+ vendor/vivo/y67/proprietary/bin/netdiag:system/bin/netdiag \
+ vendor/vivo/y67/proprietary/bin/nvram_agent_binder:system/bin/nvram_agent_binder \
+ vendor/vivo/y67/proprietary/bin/nvram_daemon:system/bin/nvram_daemon \
+ vendor/vivo/y67/proprietary/bin/orientationd:system/bin/orientationd \
+ vendor/vivo/y67/proprietary/bin/ppl_agent:system/bin/ppl_agent \
+ vendor/vivo/y67/proprietary/bin/pppd_dt:system/bin/pppd_dt \
+ vendor/vivo/y67/proprietary/bin/pq:system/bin/pq \
+ vendor/vivo/y67/proprietary/bin/program_binary_service:system/bin/program_binary_service \
  vendor/vivo/y67/proprietary/bin/radvd:system/bin/radvd \
+ vendor/vivo/y67/proprietary/bin/s62xd:system/bin/s62xd \
+ vendor/vivo/y67/proprietary/bin/slpd:system/bin/slpd \
+ vendor/vivo/y67/proprietary/bin/sn:system/bin/sn \
+ vendor/vivo/y67/proprietary/bin/spm_loader:system/bin/spm_loader \
+ vendor/vivo/y67/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
+ vendor/vivo/y67/proprietary/bin/terservice:system/bin/terservice \
+ vendor/vivo/y67/proprietary/bin/vtservice:system/bin/vtservice \
+ vendor/vivo/y67/proprietary/bin/wifi2agps:system/bin/wifi2agps \
+ vendor/vivo/y67/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/vivo/y67/proprietary/bin/xlog:system/bin/xlog \
  vendor/vivo/y67/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
@@ -434,4 +485,5 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/vivo/y67/proprietary/vendor/lib64/libfrsdk.so:system/vendor/lib64/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
- vendor/vivo/y67/proprietary/xbin/MPED:system/xbin/MPED
+ vendor/vivo/y67/proprietary/xbin/MPED:system/xbin/MPED \
+ vendor/vivo/y67/proprietary/xbin/mnld:system/xbin/mnld
