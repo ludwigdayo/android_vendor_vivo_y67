@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/ged_srv:system/bin/ged_srv \
  vendor/vivo/y67/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
  vendor/vivo/y67/proprietary/bin/geomagneticd:system/bin/geomagneticd \
+ vendor/vivo/y67/proprietary/bin/goodixfingerprintd:system/bin/goodixfingerprintd \
  vendor/vivo/y67/proprietary/bin/guiext-server:system/bin/guiext-server \
  vendor/vivo/y67/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
  vendor/vivo/y67/proprietary/bin/lsm303md:system/bin/lsm303md \
@@ -336,6 +337,11 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/libMcGatekeeper.so \
+ vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6750.so:system/lib/hw/gatekeeper.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/gatekeeper.bbk6750_66_m.so:system/lib/hw/gatekeeper.bbk6750_66_m.so \
+ vendor/vivo/y67/proprietary/lib/hw/goodix_5126m.default.so:system/lib/hw/goodix_5126m.default.so \
+ vendor/vivo/y67/proprietary/lib/hw/goodix_5216c.default.so:system/lib/hw/goodix_5216c.default.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/vivo/y67/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -476,6 +482,11 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/mmsdk.mt6755.so:system/lib64/hw/mmsdk.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.mt6750.so:system/lib64/hw/gatekeeper.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.bbk6750_66_m.so:system/lib64/hw/gatekeeper.bbk6750_66_m.so \
+ vendor/vivo/y67/proprietary/lib64/hw/goodix_5126m.default.so:system/lib64/hw/goodix_5126m.default.so \
+ vendor/vivo/y67/proprietary/lib64/hw/goodix_5216c.default.so:system/lib64/hw/goodix_5216c.default.so \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
