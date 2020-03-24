@@ -288,6 +288,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libjni_pq.so:system/lib/libjni_pq.so \
  vendor/vivo/y67/proprietary/lib/libJpgDecPipe.so:system/lib/libJpgDecPipe.so \
  vendor/vivo/y67/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
+ vendor/vivo/y67/proprietary/lib/libktv_mtk.so:system/lib/libktv_mtk.so \
  vendor/vivo/y67/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
  vendor/vivo/y67/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
  vendor/vivo/y67/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
@@ -365,10 +366,11 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6750.so:system/lib/hw/gatekeeper.mt6750.so \
- vendor/vivo/y67/proprietary/lib/hw/gatekeeper.bbk6750_66_m.so:system/lib/hw/gatekeeper.bbk6750_66_m.so \
+ vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6755.so:system/lib/hw/gatekeeper.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/gatekeeper.bbk6755_66_m.so:system/lib/hw/gatekeeper.bbk6755_66_m.so \
  vendor/vivo/y67/proprietary/lib/hw/goodix_5126m.default.so:system/lib/hw/goodix_5126m.default.so \
  vendor/vivo/y67/proprietary/lib/hw/goodix_5216c.default.so:system/lib/hw/goodix_5216c.default.so \
+ vendor/vivo/y67/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/vivo/y67/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -463,6 +465,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libjni_pq.so:system/lib64/libjni_pq.so \
  vendor/vivo/y67/proprietary/lib64/libJpgDecPipe.so:system/lib64/libJpgDecPipe.so \
  vendor/vivo/y67/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
+ vendor/vivo/y67/proprietary/lib64/libktv_mtk.so:system/lib64/libktv_mtk.so \
  vendor/vivo/y67/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
  vendor/vivo/y67/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
  vendor/vivo/y67/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
@@ -520,10 +523,11 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.mt6750.so:system/lib64/hw/gatekeeper.mt6750.so \
- vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.bbk6750_66_m.so:system/lib64/hw/gatekeeper.bbk6750_66_m.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.mt6755.so:system/lib64/hw/gatekeeper.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.bbk6755_66_m.so:system/lib64/hw/gatekeeper.bbk6755_66_m.so \
  vendor/vivo/y67/proprietary/lib64/hw/goodix_5126m.default.so:system/lib64/hw/goodix_5126m.default.so \
  vendor/vivo/y67/proprietary/lib64/hw/goodix_5216c.default.so:system/lib64/hw/goodix_5216c.default.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
