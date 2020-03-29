@@ -163,23 +163,20 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/Volume_AudioParam.xml:system/etc/audio_param/Volume_AudioParam.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
- vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
- vendor/vivo/y67/proprietary/etc/firmware/catcher_filter_3_3g_n.bin:system/etc/firmware/catcher_filter_3_3g_n.bin \
- vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/vivo/y67/proprietary/etc/firmware/dsp_1_ulwctg_n.bin:system/etc/firmware/dsp_1_ulwctg_n.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_by_mp1_m.bin:system/etc/firmware/pcm_deepidle_by_mp1_m.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_m.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend_m.bin:system/etc/firmware/pcm_suspend_m.bin \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_m.bin:system/etc/firmware/pcm_deepidle_m.bin \
- vendor/vivo/y67/proprietary/etc/firmware/em_filter_1_ulwctg_n.bin:system/etc/firmware/em_filter_1_ulwctg_n.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle.bin:system/etc/firmware/pcm_deepidle.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_deepidle_by_mp1.bin:system/etc/firmware/pcm_deepidle_by_mp1.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_mcdi_ddrdfs.bin:system/etc/firmware/pcm_mcdi_ddrdfs.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs.bin:system/etc/firmware/pcm_sodi_ddrdfs.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend.bin:system/etc/firmware/pcm_suspend.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/pcm_suspend_by_mp1.bin:system/etc/firmware/pcm_suspend_by_mp1.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_0_hdr.bin \
+ vendor/vivo/y67/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/vivo/y67/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/vivo/y67/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
- vendor/vivo/y67/proprietary/etc/firmware/modem_1_ulwctg_n.img:system/etc/firmware/modem_1_ulwctg_n.img \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_mcdi_ddrdfs_m.bin:system/etc/firmware/pcm_mcdi_ddrdfs_m.bin \
  vendor/vivo/y67/proprietary/etc/firmware/wifi_fw.cfg:system/etc/firmware/wifi_fw.cfg \
- vendor/vivo/y67/proprietary/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin:system/etc/firmware/pcm_sodi_ddrdfs_by_mp1_m.bin \
- vendor/vivo/y67/proprietary/etc/firmware/modem_3_3g_n.img:system/etc/firmware/modem_3_3g_n.img \
- vendor/vivo/y67/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v1_coeff.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v1_patch.bin:system/etc/firmware/mt6627/mt6627_fm_v1_patch.bin \
  vendor/vivo/y67/proprietary/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin:system/etc/firmware/mt6627/mt6627_fm_v2_coeff.bin \
@@ -363,6 +360,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
  vendor/vivo/y67/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/vivo/y67/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
+ vendor/vivo/y67/proprietary/lib/libmars-service.so:system/lib/libmars-service.so \
  vendor/vivo/y67/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
@@ -370,7 +368,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/libMcGatekeeper.so \
  vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6755.so:system/lib/hw/gatekeeper.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/gatekeeper.bbk6755_66_m.so:system/lib/hw/gatekeeper.bbk6755_66_m.so \
@@ -399,12 +396,8 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libbluetooth_mtk_pure.so:system/lib64/libbluetooth_mtk_pure.so \
  vendor/vivo/y67/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
  vendor/vivo/y67/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
- vendor/vivo/y67/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
  vendor/vivo/y67/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
  vendor/vivo/y67/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
- vendor/vivo/y67/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
- vendor/vivo/y67/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
- vendor/vivo/y67/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
  vendor/vivo/y67/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
  vendor/vivo/y67/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
  vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
@@ -414,11 +407,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
  vendor/vivo/y67/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
  vendor/vivo/y67/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
  vendor/vivo/y67/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
  vendor/vivo/y67/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
  vendor/vivo/y67/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
@@ -426,7 +414,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
  vendor/vivo/y67/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
  vendor/vivo/y67/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
- vendor/vivo/y67/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
  vendor/vivo/y67/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/vivo/y67/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
  vendor/vivo/y67/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
@@ -513,11 +500,15 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
  vendor/vivo/y67/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
  vendor/vivo/y67/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
+ vendor/vivo/y67/proprietary/lib64/libtlcWidevineModularDrm.so:system/lib64/libtlcWidevineModularDrm.so \
  vendor/vivo/y67/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/vivo/y67/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/vivo/y67/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/vivo/y67/proprietary/lib64/mtk-rilproxy.so:system/lib64/mtk-rilproxy.so \
  vendor/vivo/y67/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
+ vendor/vivo/y67/proprietary/lib64/libmars-service.so:system/lib64/libmars-service.so \
+ vendor/vivo/y67/proprietary/lib64/libmars-featureclient.so:system/lib64/libmars-featureclient.so \
+ vendor/vivo/y67/proprietary/lib64/libmars-service_jni.so:system/lib64/libmars-service_jni.so \
  vendor/vivo/y67/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
@@ -526,7 +517,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
  vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.mt6755.so:system/lib64/hw/gatekeeper.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.bbk6755_66_m.so:system/lib64/hw/gatekeeper.bbk6755_66_m.so \

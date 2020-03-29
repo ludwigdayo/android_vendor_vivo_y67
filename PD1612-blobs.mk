@@ -15,3 +15,14 @@ PRODUCT_COPY_FILES += \
      vendor/vivo/y67/proprietary/lib/libc2kutils.so:system/lib/libc2kutils.so \
      vendor/vivo/y67/proprietary/lib/liburee_meta_drmkeyinstall.so:system/lib/liburee_meta_drmkeyinstall.so \
      vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6755.so:system/lib/hw/gatekeeper.mt6755.so
+
+# Include ov8858 s5k2p8
+PRODUCT_COPY_FILES += \
+    vendor/vivo/y67/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
+    vendor/vivo/y67/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
+    vendor/vivo/y67/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
+    vendor/vivo/y67/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
+    vendor/vivo/y67/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
+    vendor/vivo/y67/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
+    vendor/vivo/y67/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
+    vendor/vivo/y67/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so
