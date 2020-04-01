@@ -63,6 +63,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/magd:system/bin/magd \
  vendor/vivo/y67/proprietary/bin/matv:system/bin/matv \
  vendor/vivo/y67/proprietary/bin/mc6420d:system/bin/mc6420d \
+ vendor/vivo/y67/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
  vendor/vivo/y67/proprietary/bin/mdlogger:system/bin/mdlogger \
  vendor/vivo/y67/proprietary/bin/md_ctrl:system/bin/md_ctrl \
  vendor/vivo/y67/proprietary/bin/mtkmal:system/bin/mtkmal \
@@ -95,6 +96,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/volte_imcb:system/bin/volte_imcb \
  vendor/vivo/y67/proprietary/bin/volte_stack:system/bin/volte_stack \
  vendor/vivo/y67/proprietary/bin/volte_ua:system/bin/volte_ua \
+ vendor/vivo/y67/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/vivo/y67/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/vivo/y67/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/vivo/y67/proprietary/bin/xlog:system/bin/xlog \
@@ -329,6 +331,10 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libMtkOmxMp3Dec.so:system/lib/libMtkOmxMp3Dec.so \
  vendor/vivo/y67/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
  vendor/vivo/y67/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
+    vendor/vivo/y67/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
+    vendor/vivo/y67/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
+    vendor/vivo/y67/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/vivo/y67/proprietary/lib/libMtkOmxWmaDec.so:system/lib/libMtkOmxWmaDec.so \
  vendor/vivo/y67/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/vivo/y67/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
  vendor/vivo/y67/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
@@ -508,6 +514,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/vivo/y67/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
  vendor/vivo/y67/proprietary/lib64/libnvram_sec.so:system/lib64/libnvram_sec.so \
+      vendor/vivo/y67/proprietary/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/vivo/y67/proprietary/lib64/libperfservice.so:system/lib64/libperfservice.so \
  vendor/vivo/y67/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/vivo/y67/proprietary/lib64/libPQDCjni.so:system/lib64/libPQDCjni.so \
@@ -556,6 +563,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/goodix_5216c.default.so:system/lib64/hw/goodix_5216c.default.so \
  vendor/vivo/y67/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
  vendor/vivo/y67/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
+    vendor/vivo/y67/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
@@ -577,16 +585,11 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/custom/camera/custom/lib/libsec_mem.so:system/lib/libsec_mem.so \
  vendor/vivo/y67/custom/camera/custom/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libhdrproc.so:system/lib/libhdrproc.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libMtkOmxWmaDec.so:system/lib/libMtkOmxWmaDec.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libMtkOmxCore.so:system/lib64/libMtkOmxCore.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
@@ -602,61 +605,65 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/custom/camera/nougat/lib64/libm4u.so:system/lib64/libm4u.so \
  vendor/vivo/y67/custom/camera/nougat/lib64/libmtkcam_fwkutils.so:system/lib64/libmtkcam_fwkutils.so \
  vendor/vivo/y67/custom/camera/nougat/lib64/librrc.so:system/lib64/librrc.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libui_ext.so:system/lib64/libui_ext.so \
- vendor/vivo/y67/custom/ril/custom/bin/6620_launcher:system/bin/6620_launcher \
- vendor/vivo/y67/custom/ril/custom/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
- vendor/vivo/y67/custom/ril/custom/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
- vendor/vivo/y67/custom/ril/custom/bin/ccci_fsd:system/bin/ccci_fsd \
- vendor/vivo/y67/custom/ril/custom/bin/ccci_mdinit:system/bin/ccci_mdinit \
- vendor/vivo/y67/custom/ril/custom/bin/gsm0710muxd:system/bin/gsm0710muxd \
- vendor/vivo/y67/custom/ril/custom/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
- vendor/vivo/y67/custom/ril/custom/bin/mtkrild:system/bin/mtkrild \
- vendor/vivo/y67/custom/ril/custom/bin/mtkrildmd2:system/bin/mtkrildmd2 \
- vendor/vivo/y67/custom/ril/custom/lib/libmal.so:system/lib/libmal.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_rds.so:system/lib/libmal_rds.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib/libmdfx.so:system/lib/libmdfx.so \
- vendor/vivo/y67/custom/ril/custom/lib/librilmtk.so:system/lib/librilmtk.so \
- vendor/vivo/y67/custom/ril/custom/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
- vendor/vivo/y67/custom/ril/custom/lib/mtk-ril.so:system/lib/mtk-ril.so \
- vendor/vivo/y67/custom/ril/custom/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal.so:system/lib64/libmal.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
- vendor/vivo/y67/custom/ril/custom/lib64/libmdfx.so:system/lib64/libmdfx.so \
- vendor/vivo/y67/custom/ril/custom/lib64/librilmtk.so:system/lib64/librilmtk.so \
- vendor/vivo/y67/custom/ril/custom/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
- vendor/vivo/y67/custom/ril/custom/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
- vendor/vivo/y67/custom/ril/custom/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so
+ vendor/vivo/y67/custom/camera/nougat/lib64/libui_ext.so:system/lib64/libui_ext.so
+
+# ril
+PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/bin/6620_launcher:system/bin/6620_launcher \
+ vendor/vivo/y67/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
+ vendor/vivo/y67/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
+ vendor/vivo/y67/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
+ vendor/vivo/y67/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
+ vendor/vivo/y67/proprietary/bin/gsm0710muxd:system/bin/gsm0710muxd \
+ vendor/vivo/y67/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
+ vendor/vivo/y67/proprietary/bin/mtkrild:system/bin/mtkrild \
+ vendor/vivo/y67/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
+ vendor/vivo/y67/proprietary/lib/libmal.so:system/lib/libmal.so \
+ vendor/vivo/y67/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
+ vendor/vivo/y67/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
+ vendor/vivo/y67/proprietary/lib/libmal_imsmngr.so:system/lib/libmal_imsmngr.so \
+ vendor/vivo/y67/proprietary/lib/libmal_mdmngr.so:system/lib/libmal_mdmngr.so \
+ vendor/vivo/y67/proprietary/lib/libmal_nwmngr.so:system/lib/libmal_nwmngr.so \
+ vendor/vivo/y67/proprietary/lib/libmal_rds.so:system/lib/libmal_rds.so \
+ vendor/vivo/y67/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
+ vendor/vivo/y67/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
+ vendor/vivo/y67/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
+ vendor/vivo/y67/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
+ vendor/vivo/y67/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
+ vendor/vivo/y67/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
+ vendor/vivo/y67/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
+ vendor/vivo/y67/proprietary/lib64/libmal.so:system/lib64/libmal.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_imsmngr.so:system/lib64/libmal_imsmngr.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_mdmngr.so:system/lib64/libmal_mdmngr.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_nwmngr.so:system/lib64/libmal_nwmngr.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_rds.so:system/lib64/libmal_rds.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
+ vendor/vivo/y67/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
+ vendor/vivo/y67/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
+ vendor/vivo/y67/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
+ vendor/vivo/y67/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
+ vendor/vivo/y67/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
+ vendor/vivo/y67/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
+ vendor/vivo/y67/proprietary/lib64/librpcril.so:system/lib64/librpcril.so \
 
 # Thermal
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
- vendor/vivo/y67/custom/thermal/custom/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
- vendor/vivo/y67/custom/thermal/custom/bin/thermal:system/bin/thermal \
- vendor/vivo/y67/custom/thermal/custom/bin/thermal_manager:system/bin/thermal_manager \
- vendor/vivo/y67/custom/thermal/custom/bin/thermald:system/bin/thermald \
- vendor/vivo/y67/custom/thermal/custom/bin/thermalloadalgod:system/bin/thermalloadalgod
+   vendor/vivo/y67/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
+   vendor/vivo/y67/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
+   vendor/vivo/y67/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
+   vendor/vivo/y67/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
+   vendor/vivo/y67/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
+   vendor/vivo/y67/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
+   vendor/vivo/y67/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
+   vendor/vivo/y67/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
+   vendor/vivo/y67/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
+   vendor/vivo/y67/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
+   vendor/vivo/y67/proprietary/bin/thermal:system/bin/thermal \
+   vendor/vivo/y67/proprietary/bin/thermal_manager:system/bin/thermal_manager \
+   vendor/vivo/y67/proprietary/bin/thermald:system/bin/thermald \
+   vendor/vivo/y67/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod
 
 # vivo拍照美颜用的...也许还包含相机驱动
 PRODUCT_COPY_FILES += \
