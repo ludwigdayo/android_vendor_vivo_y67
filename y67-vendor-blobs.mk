@@ -412,7 +412,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/goodix_5216c.default.so:system/lib/hw/goodix_5216c.default.so \
  vendor/vivo/y67/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/gatekeeper.mt6755.so:system/lib/hw/gatekeeper.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/vivo/y67/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -559,7 +558,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/vivo/y67/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/vivo/y67/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
- vendor/vivo/y67/proprietary/lib64/hw/gatekeeper.mt6755.so:system/lib64/hw/gatekeeper.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
