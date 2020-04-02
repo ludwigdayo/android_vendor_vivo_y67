@@ -380,6 +380,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
  vendor/vivo/y67/proprietary/lib/librilproxyutils.so:system/lib/librilproxyutils.so \
  vendor/vivo/y67/proprietary/lib/librilproxy.so:system/lib/librilproxy.so \
+ vendor/vivo/y67/proprietary/lib/libsec_mem.so:system/lib/libsec_mem.so \
  vendor/vivo/y67/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
  vendor/vivo/y67/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
  vendor/vivo/y67/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
@@ -388,6 +389,8 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
  vendor/vivo/y67/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
  vendor/vivo/y67/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
+ vendor/vivo/y67/proprietary/lib/libtlcWidevineModularDrm.so:system/lib/libtlcWidevineModularDrm.so \
+ vendor/vivo/y67/proprietary/lib/libtlcWidevineClassicDrm.so:system/lib/libtlcWidevineClassicDrm.so \
  vendor/vivo/y67/proprietary/lib/libudf.so:system/lib/libudf.so \
  vendor/vivo/y67/proprietary/lib/liburee_meta_drmkeyinstall.so:system/lib/liburee_meta_drmkeyinstall.so \
  vendor/vivo/y67/proprietary/lib/libvc1dec_sa.ca7.so:system/lib/libvc1dec_sa.ca7.so \
@@ -543,6 +546,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
  vendor/vivo/y67/proprietary/lib64/librilproxyutils.so:system/lib64/librilproxyutils.so \
  vendor/vivo/y67/proprietary/lib64/librilproxy.so:system/lib64/librilproxy.so \
+ vendor/vivo/y67/proprietary/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
  vendor/vivo/y67/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
  vendor/vivo/y67/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/vivo/y67/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
@@ -550,6 +554,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
  vendor/vivo/y67/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/vivo/y67/proprietary/lib64/libtlcWidevineModularDrm.so:system/lib64/libtlcWidevineModularDrm.so \
+ vendor/vivo/y67/proprietary/lib64/libtlcWidevineClassicDrm.so:system/lib64/libtlcWidevineClassicDrm.so \
  vendor/vivo/y67/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/vivo/y67/proprietary/lib64/liburee_meta_drmkeyinstall.so:system/lib64/liburee_meta_drmkeyinstall.so \
  vendor/vivo/y67/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
@@ -588,8 +593,6 @@ PRODUCT_COPY_FILES += \
 
 # camera custom
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/custom/camera/custom/lib/libsec_mem.so:system/lib/libsec_mem.so \
- vendor/vivo/y67/custom/camera/custom/lib64/libsec_mem.so:system/lib64/libsec_mem.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libhdrproc.so:system/lib/libhdrproc.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
