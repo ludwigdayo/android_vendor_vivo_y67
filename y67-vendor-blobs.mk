@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/fingerprintd:system/bin/fingerprintd \
  vendor/vivo/y67/proprietary/bin/gas_srv:system/bin/gas_srv \
  vendor/vivo/y67/proprietary/bin/ged_srv:system/bin/ged_srv \
- vendor/vivo/y67/proprietary/bin/gatekeeperd:system/bin/gatekeeperd \
  vendor/vivo/y67/proprietary/bin/geomagneticd:system/bin/geomagneticd \
  vendor/vivo/y67/proprietary/bin/goodixfingerprintd:system/bin/goodixfingerprintd \
  vendor/vivo/y67/proprietary/bin/guiext-server:system/bin/guiext-server \
@@ -300,7 +299,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
  vendor/vivo/y67/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/vivo/y67/proprietary/lib/libgas.so:system/lib/libgas.so \
- vendor/vivo/y67/proprietary/lib/libgatekeeper.so:system/lib/libgatekeeper.so \
  vendor/vivo/y67/proprietary/lib/libged.so:system/lib/libged.so \
  vendor/vivo/y67/proprietary/lib/libgf_algo.so:system/lib/libgf_algo.so \
  vendor/vivo/y67/proprietary/lib/libgf_ca.so:system/lib/libgf_ca.so \
@@ -562,7 +560,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/mtk-rilproxy.so:system/lib64/mtk-rilproxy.so \
  vendor/vivo/y67/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/vivo/y67/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
- vendor/vivo/y67/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
  vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
