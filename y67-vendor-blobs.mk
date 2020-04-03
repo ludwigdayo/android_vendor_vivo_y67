@@ -309,6 +309,8 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libgoodixfingerprintd_binder.so:system/lib/libgoodixfingerprintd_binder.so \
  vendor/vivo/y67/proprietary/lib/libHEVCdec_sa.ca7.android.so:system/lib/libHEVCdec_sa.ca7.android.so \
  vendor/vivo/y67/proprietary/lib/libhwm.so:system/lib/libhwm.so \
+ vendor/vivo/y67/proprietary/lib/libh264enc_sa.ca7.so:system/lib/libh264enc_sa.ca7.so \
+ vendor/vivo/y67/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
  vendor/vivo/y67/proprietary/lib/libimageio.so:system/lib/libimageio.so \
  vendor/vivo/y67/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
  vendor/vivo/y67/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
@@ -334,6 +336,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/vivo/y67/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
  vendor/vivo/y67/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
+ vendor/vivo/y67/proprietary/lib/libmp4enc_xa.ca7.so:system/lib/libmp4enc_xa.ca7.so \
  vendor/vivo/y67/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
  vendor/vivo/y67/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/vivo/y67/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
