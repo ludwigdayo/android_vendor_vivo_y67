@@ -525,28 +525,28 @@ PRODUCT_COPY_FILES += \
 
 # camera custom
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libhdrproc.so:system/lib/libhdrproc.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
- vendor/vivo/y67/custom/camera/marshmallow/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
- vendor/vivo/y67/custom/camera/nougat/lib/libbwc.so:system/lib/libbwc.so \
- vendor/vivo/y67/custom/camera/nougat/lib/libgui_ext.so:system/lib/libgui_ext.so \
- vendor/vivo/y67/custom/camera/nougat/lib/libm4u.so:system/lib/libm4u.so \
- vendor/vivo/y67/custom/camera/nougat/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
- vendor/vivo/y67/custom/camera/nougat/lib/librrc.so:system/lib/librrc.so \
- vendor/vivo/y67/custom/camera/nougat/lib/libui_ext.so:system/lib/libui_ext.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libbwc.so:system/lib64/libbwc.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libm4u.so:system/lib64/libm4u.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libmtkcam_fwkutils.so:system/lib64/libmtkcam_fwkutils.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/librrc.so:system/lib64/librrc.so \
- vendor/vivo/y67/custom/camera/nougat/lib64/libui_ext.so:system/lib64/libui_ext.so
+ vendor/vivo/y67/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
+ vendor/vivo/y67/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
+ vendor/vivo/y67/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+ vendor/vivo/y67/proprietary/lib/libvcodec_cap.so:system/lib/libvcodec_cap.so \
+ vendor/vivo/y67/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
+ vendor/vivo/y67/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
+ vendor/vivo/y67/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
+ vendor/vivo/y67/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
+ vendor/vivo/y67/proprietary/lib64/libvcodec_cap.so:system/lib64/libvcodec_cap.so \
+ vendor/vivo/y67/proprietary/lib64/libvcodec_oal.so:system/lib64/libvcodec_oal.so \
+ vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+ vendor/vivo/y67/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
+ vendor/vivo/y67/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+ vendor/vivo/y67/proprietary/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
+ vendor/vivo/y67/proprietary/lib/librrc.so:system/lib/librrc.so \
+ vendor/vivo/y67/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
+ vendor/vivo/y67/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
+ vendor/vivo/y67/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
+ vendor/vivo/y67/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
+ vendor/vivo/y67/proprietary/lib64/libmtkcam_fwkutils.so:system/lib64/libmtkcam_fwkutils.so \
+ vendor/vivo/y67/proprietary/lib64/librrc.so:system/lib64/librrc.so \
+ vendor/vivo/y67/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so
 
 # ril
 PRODUCT_COPY_FILES += \
@@ -602,11 +602,14 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
  vendor/vivo/y67/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
  vendor/vivo/y67/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
- vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so
+ vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so \
+ vendor/vivo/y67/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
+ vendor/vivo/y67/proprietary/lib64/libMtkVideoSpeedEffect.so:system/lib64/libMtkVideoSpeedEffect.so
 
 # vt
 PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libamrvt.so:system/lib/libamrvt.so \
+ vendor/vivo/y67/proprietary/lib/libamr_wrap.so:system/lib/libamr_wrap.so \
  vendor/vivo/y67/proprietary/lib/libmtk_vt_service.so:system/lib/libmtk_vt_service.so \
  vendor/vivo/y67/proprietary/lib/libmtk_vt_swip.so:system/lib/libmtk_vt_swip.so \
  vendor/vivo/y67/proprietary/lib/libmtk_vt_utils.so:system/lib/libmtk_vt_utils.so \
@@ -618,8 +621,76 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
  vendor/vivo/y67/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so
 
-# 相机驱动
 PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
+ vendor/vivo/y67/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
+ vendor/vivo/y67/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
+ vendor/vivo/y67/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
+ vendor/vivo/y67/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
+ vendor/vivo/y67/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
+ vendor/vivo/y67/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
+ vendor/vivo/y67/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
+ vendor/vivo/y67/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
+ vendor/vivo/y67/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
+ vendor/vivo/y67/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
+ vendor/vivo/y67/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
+ vendor/vivo/y67/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
+ vendor/vivo/y67/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
+ vendor/vivo/y67/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
+ vendor/vivo/y67/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
+ vendor/vivo/y67/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
+ vendor/vivo/y67/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
+ vendor/vivo/y67/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
+ vendor/vivo/y67/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
+ vendor/vivo/y67/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
+ vendor/vivo/y67/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
+ vendor/vivo/y67/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
+ vendor/vivo/y67/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
+ vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
+ vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
+ vendor/vivo/y67/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
+ vendor/vivo/y67/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
+ vendor/vivo/y67/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
+ vendor/vivo/y67/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
+ vendor/vivo/y67/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
+ vendor/vivo/y67/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
+ vendor/vivo/y67/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
+ vendor/vivo/y67/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
+ vendor/vivo/y67/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
+ vendor/vivo/y67/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
+ vendor/vivo/y67/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
+ vendor/vivo/y67/proprietary/lib/libcam.utils.cpuctrl.so:system/lib/libcam.utils.cpuctrl.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
+ vendor/vivo/y67/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
+ vendor/vivo/y67/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
+ vendor/vivo/y67/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
+ vendor/vivo/y67/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
+ vendor/vivo/y67/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so
+
+# 其他相机驱动
+#PRODUCT_COPY_FILES += \
   vendor/vivo/y67/camdrv/lib/lib_agoldcam_imx258_mipi_raw_SYX_0AQH5_v1.so:system/vendor/lib/lib_agoldcam_imx258_mipi_raw_SYX_0AQH5_v1.so \
   vendor/vivo/y67/camdrv/lib/lib_agoldcam_ov13853_mipi_raw_SYX_50016A_v1.so:system/vendor/lib/lib_agoldcam_ov13853_mipi_raw_SYX_50016A_v1.so \
   vendor/vivo/y67/camdrv/lib/lib_agoldcam_ov5670_mipi_raw_SYX_M509_v1.so:system/vendor/lib/lib_agoldcam_ov5670_mipi_raw_SYX_M509_v1.so \
@@ -696,71 +767,3 @@ PRODUCT_COPY_FILES += \
   vendor/vivo/y67/camdrv/lib64/lib_agoldlens_dw9800af_v6.so:system/vendor/lib64/lib_agoldlens_dw9800af_v6.so \
   vendor/vivo/y67/camdrv/lib64/lib_agoldlens_dw9800af_v7.so:system/vendor/lib64/lib_agoldlens_dw9800af_v7.so \
   vendor/vivo/y67/camdrv/lib64/lib_agoldlens_lc898212xdaf_v1.so:system/vendor/lib64/lib_agoldlens_lc898212xdaf_v1.so
-
-PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
- vendor/vivo/y67/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_app.so:system/lib64/libcam3_app.so \
- vendor/vivo/y67/proprietary/lib/libcam3_hwnode.so:system/lib/libcam3_hwnode.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_hwnode.so:system/lib64/libcam3_hwnode.so \
- vendor/vivo/y67/proprietary/lib/libcam3_hwpipeline.so:system/lib/libcam3_hwpipeline.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_hwpipeline.so:system/lib64/libcam3_hwpipeline.so \
- vendor/vivo/y67/proprietary/lib/libcam3_pipeline.so:system/lib/libcam3_pipeline.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_pipeline.so:system/lib64/libcam3_pipeline.so \
- vendor/vivo/y67/proprietary/lib/libcam3_utils.so:system/lib/libcam3_utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam3_utils.so:system/lib64/libcam3_utils.so \
- vendor/vivo/y67/proprietary/lib/libcamalgo.so:system/lib/libcamalgo.so \
- vendor/vivo/y67/proprietary/lib64/libcamalgo.so:system/lib64/libcamalgo.so \
- vendor/vivo/y67/proprietary/lib/libcam.camadapter.so:system/lib/libcam.camadapter.so \
- vendor/vivo/y67/proprietary/lib64/libcam.camadapter.so:system/lib64/libcam.camadapter.so \
- vendor/vivo/y67/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
- vendor/vivo/y67/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
- vendor/vivo/y67/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
- vendor/vivo/y67/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
- vendor/vivo/y67/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
- vendor/vivo/y67/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
- vendor/vivo/y67/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
- vendor/vivo/y67/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
- vendor/vivo/y67/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
- vendor/vivo/y67/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
- vendor/vivo/y67/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
- vendor/vivo/y67/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
- vendor/vivo/y67/proprietary/lib/libcameracustom.so:system/lib/libcameracustom.so \
- vendor/vivo/y67/proprietary/lib64/libcameracustom.so:system/lib64/libcameracustom.so \
- vendor/vivo/y67/proprietary/lib/libcam.exif.so:system/lib/libcam.exif.so \
- vendor/vivo/y67/proprietary/lib64/libcam.exif.so:system/lib64/libcam.exif.so \
- vendor/vivo/y67/proprietary/lib/libcam.exif.v3.so:system/lib/libcam.exif.v3.so \
- vendor/vivo/y67/proprietary/lib64/libcam.exif.v3.so:system/lib64/libcam.exif.v3.so \
- vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.dng.so:system/lib/libcam.hal3a.v3.dng.so \
- vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.dng.so:system/lib64/libcam.hal3a.v3.dng.so \
- vendor/vivo/y67/proprietary/lib/libcam.hal3a.v3.so:system/lib/libcam.hal3a.v3.so \
- vendor/vivo/y67/proprietary/lib64/libcam.hal3a.v3.so:system/lib64/libcam.hal3a.v3.so \
- vendor/vivo/y67/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
- vendor/vivo/y67/proprietary/lib64/libcam.halsensor.so:system/lib64/libcam.halsensor.so \
- vendor/vivo/y67/proprietary/lib/libcam_hwutils.so:system/lib/libcam_hwutils.so \
- vendor/vivo/y67/proprietary/lib64/libcam_hwutils.so:system/lib64/libcam_hwutils.so \
- vendor/vivo/y67/proprietary/lib/libcam.iopipe.so:system/lib/libcam.iopipe.so \
- vendor/vivo/y67/proprietary/lib64/libcam.iopipe.so:system/lib64/libcam.iopipe.so \
- vendor/vivo/y67/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
- vendor/vivo/y67/proprietary/lib64/libcam.metadataprovider.so:system/lib64/libcam.metadataprovider.so \
- vendor/vivo/y67/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
- vendor/vivo/y67/proprietary/lib64/libcam.metadata.so:system/lib64/libcam.metadata.so \
- vendor/vivo/y67/proprietary/lib/libcam_mmp.so:system/lib/libcam_mmp.so \
- vendor/vivo/y67/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
- vendor/vivo/y67/proprietary/lib/libcam.paramsmgr.so:system/lib/libcam.paramsmgr.so \
- vendor/vivo/y67/proprietary/lib64/libcam.paramsmgr.so:system/lib64/libcam.paramsmgr.so \
- vendor/vivo/y67/proprietary/lib/libcam_platform.so:system/lib/libcam_platform.so \
- vendor/vivo/y67/proprietary/lib64/libcam_platform.so:system/lib64/libcam_platform.so \
- vendor/vivo/y67/proprietary/lib/libcam.sdkclient.so:system/lib/libcam.sdkclient.so \
- vendor/vivo/y67/proprietary/lib64/libcam.sdkclient.so:system/lib64/libcam.sdkclient.so \
- vendor/vivo/y67/proprietary/lib/libcam.utils.cpuctrl.so:system/lib/libcam.utils.cpuctrl.so \
- vendor/vivo/y67/proprietary/lib64/libcam.utils.cpuctrl.so:system/lib64/libcam.utils.cpuctrl.so \
- vendor/vivo/y67/proprietary/lib/libcam.utils.sensorlistener.so:system/lib/libcam.utils.sensorlistener.so \
- vendor/vivo/y67/proprietary/lib64/libcam.utils.sensorlistener.so:system/lib64/libcam.utils.sensorlistener.so \
- vendor/vivo/y67/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
- vendor/vivo/y67/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
- vendor/vivo/y67/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
- vendor/vivo/y67/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so
