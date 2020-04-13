@@ -214,6 +214,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
  vendor/vivo/y67/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
  vendor/vivo/y67/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
+ vendor/vivo/y67/proprietary/lib/libawb_wrap.so:system/lib/libawb_wrap.so \
  vendor/vivo/y67/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
  vendor/vivo/y67/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
  vendor/vivo/y67/proprietary/lib/libblisrc.so:system/lib/libblisrc.so \
