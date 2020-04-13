@@ -589,22 +589,12 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/vivo/y67/proprietary/lib64/librpcril.so:system/lib64/librpcril.so
 
-# 相机
+# mddb
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_gender_detection.so:system/lib/libarcsoft_gender_detection.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
- vendor/vivo/y67/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
- vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so \
- vendor/vivo/y67/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
- vendor/vivo/y67/proprietary/lib64/libMtkVideoSpeedEffect.so:system/lib64/libMtkVideoSpeedEffect.so
+ vendor/vivo/y67/proprietary/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_07_08_09_57_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_07_08_09_57_1_ulwctg_n \
+ vendor/vivo/y67/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB \
+ vendor/vivo/y67/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB \
+ vendor/vivo/y67/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat
 
 # vt
 PRODUCT_COPY_FILES += \
@@ -621,7 +611,22 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
  vendor/vivo/y67/proprietary/lib64/libvt_avsync.so:system/lib64/libvt_avsync.so
 
+# cam
 PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_gender_detection.so:system/lib/libarcsoft_gender_detection.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
+ vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so \
+ vendor/vivo/y67/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
+ vendor/vivo/y67/proprietary/lib64/libMtkVideoSpeedEffect.so:system/lib64/libMtkVideoSpeedEffect.so \
  vendor/vivo/y67/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
  vendor/vivo/y67/proprietary/lib64/libcam1_utils.so:system/lib64/libcam1_utils.so \
  vendor/vivo/y67/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
