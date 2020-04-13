@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/akmd8963:system/bin/akmd8963 \
  vendor/vivo/y67/proprietary/bin/akmd8975:system/bin/akmd8975 \
  vendor/vivo/y67/proprietary/bin/ami304d:system/bin/ami304d \
- vendor/vivo/y67/proprietary/bin/atcid:system/bin/atcid \
- vendor/vivo/y67/proprietary/bin/atci_service:system/bin/atci_service \
  vendor/vivo/y67/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
  vendor/vivo/y67/proprietary/bin/autobt:system/bin/autobt \
  vendor/vivo/y67/proprietary/bin/autokd:system/bin/autokd \
@@ -86,8 +84,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/thermald:system/bin/thermald \
  vendor/vivo/y67/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
  vendor/vivo/y67/proprietary/bin/vtservice:system/bin/vtservice \
- vendor/vivo/y67/proprietary/bin/vivo_daemon:system/bin/vivo_daemon \
- vendor/vivo/y67/proprietary/bin/vivo_em_svr:system/bin/vivo_em_svr \
  vendor/vivo/y67/proprietary/bin/volte_imcb:system/bin/volte_imcb \
  vendor/vivo/y67/proprietary/bin/volte_stack:system/bin/volte_stack \
  vendor/vivo/y67/proprietary/bin/volte_ua:system/bin/volte_ua \
@@ -227,6 +223,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/vivo/y67/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
+ vendor/vivo/y67/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
  vendor/vivo/y67/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/vivo/y67/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -547,7 +544,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
  vendor/vivo/y67/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
  vendor/vivo/y67/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
- vendor/vivo/y67/proprietary/vendor/etc/mtk_omx_core.cfg:system/vendor/etc/mtk_omx_core.cfg \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
