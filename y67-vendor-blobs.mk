@@ -270,6 +270,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libh264enc_sb.ca7.so:system/lib/libh264enc_sb.ca7.so \
  vendor/vivo/y67/proprietary/lib/libimageio.so:system/lib/libimageio.so \
  vendor/vivo/y67/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
+ vendor/vivo/y67/proprietary/lib/libimsma_socketwrapper.so:system/lib/libimsma_socketwrapper.so \
  vendor/vivo/y67/proprietary/lib/libion_mtk.so:system/lib/libion_mtk.so \
  vendor/vivo/y67/proprietary/lib/libimsma.so:system/lib/libimsma.so \
  vendor/vivo/y67/proprietary/lib/libimsma_rtp.so:system/lib/libimsma_rtp.so \
@@ -387,6 +388,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/hwcomposer.mt6755.so:system/lib/hw/hwcomposer.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
@@ -455,6 +457,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
  vendor/vivo/y67/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
  vendor/vivo/y67/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
+ vendor/vivo/y67/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
  vendor/vivo/y67/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
  vendor/vivo/y67/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
  vendor/vivo/y67/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
@@ -538,6 +541,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/hwcomposer.mt6755.so:system/lib64/hw/hwcomposer.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
@@ -609,7 +613,6 @@ PRODUCT_COPY_FILES += \
 
 # cam
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib/libcam.halsensor.so:system/lib/libcam.halsensor.so \
  vendor/vivo/y67/proprietary/lib/libcam.metadataprovider.so:system/lib/libcam.metadataprovider.so \
  vendor/vivo/y67/proprietary/lib/libcam.metadata.so:system/lib/libcam.metadata.so \
  vendor/vivo/y67/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
