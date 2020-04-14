@@ -223,6 +223,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/vivo/y67/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
+ vendor/vivo/y67/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
  vendor/vivo/y67/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/vivo/y67/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
