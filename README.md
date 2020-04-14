@@ -18,7 +18,7 @@ GPU     | Mali-T860
 
 # 构建信息
 
-### 正常:
+### 工作:
  * Wi-Fi
  * GPS
  * Audio
@@ -28,9 +28,10 @@ GPU     | Mali-T860
  * MTP
  * Display
  * Thermal
+ * flashlight
+ * OMX
 
 ### 不工作:
  * Camera
  * RIL
  * Goodix fingerprint
- * OMX
