@@ -33,4 +33,4 @@ GPU     | Mali-T860
  * Camera
  * RIL
  * Goodix fingerprint
- * OMX (video)
+ * OMX

@@ -286,8 +286,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
  vendor/vivo/y67/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
  vendor/vivo/y67/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
- vendor/vivo/y67/proprietary/lib/libmediacore4g_vivo_metadata_android.so:system/lib/libmediacore4g_vivo_metadata_android.so \
- vendor/vivo/y67/proprietary/lib/libmediacore4g_vivo_public.so:system/lib/libmediacore4g_vivo_public.so \
  vendor/vivo/y67/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
  vendor/vivo/y67/proprietary/lib/libmemorydumper.so:system/lib/libmemorydumper.so \
  vendor/vivo/y67/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
@@ -473,7 +471,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
  vendor/vivo/y67/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
  vendor/vivo/y67/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
- vendor/vivo/y67/proprietary/lib64/libmediacore4g_vivo_public.so:system/lib64/libmediacore4g_vivo_public.so \
  vendor/vivo/y67/proprietary/lib64/libmemoryDumpEncoder.so:system/lib64/libmemoryDumpEncoder.so \
  vendor/vivo/y67/proprietary/lib64/libmemorydumper.so:system/lib64/libmemorydumper.so \
  vendor/vivo/y67/proprietary/lib64/libmhalImageCodec.so:system/lib64/libmhalImageCodec.so \
