@@ -325,6 +325,8 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
  vendor/vivo/y67/proprietary/lib/libMtkOmxCore.so:system/lib/libMtkOmxCore.so \
  vendor/vivo/y67/proprietary/lib/libMtkOmxWmaDec.so:system/lib/libMtkOmxWmaDec.so \
+ vendor/vivo/y67/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+ vendor/vivo/y67/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
  vendor/vivo/y67/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/vivo/y67/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
  vendor/vivo/y67/proprietary/lib/libMtkVideoSpeedEffect.so:system/lib/libMtkVideoSpeedEffect.so \
