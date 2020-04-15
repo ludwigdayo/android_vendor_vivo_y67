@@ -54,6 +54,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
  vendor/vivo/y67/proprietary/bin/mdlogger:system/bin/mdlogger \
  vendor/vivo/y67/proprietary/bin/md_ctrl:system/bin/md_ctrl \
+ vendor/vivo/y67/proprietary/bin/md_monitor:system/bin/md_monitor \
  vendor/vivo/y67/proprietary/bin/mtkmal:system/bin/mtkmal \
  vendor/vivo/y67/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/vivo/y67/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
@@ -587,6 +588,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libmal_rilproxy.so:system/lib/libmal_rilproxy.so \
  vendor/vivo/y67/proprietary/lib/libmal_simmngr.so:system/lib/libmal_simmngr.so \
  vendor/vivo/y67/proprietary/lib/libmdfx.so:system/lib/libmdfx.so \
+ vendor/vivo/y67/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
  vendor/vivo/y67/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
  vendor/vivo/y67/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
  vendor/vivo/y67/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
@@ -601,11 +603,21 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libmal_rilproxy.so:system/lib64/libmal_rilproxy.so \
  vendor/vivo/y67/proprietary/lib64/libmal_simmngr.so:system/lib64/libmal_simmngr.so \
  vendor/vivo/y67/proprietary/lib64/libmdfx.so:system/lib64/libmdfx.so \
+ vendor/vivo/y67/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
  vendor/vivo/y67/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
  vendor/vivo/y67/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
  vendor/vivo/y67/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
  vendor/vivo/y67/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/vivo/y67/proprietary/lib64/librpcril.so:system/lib64/librpcril.so
+
+# gatekeeper
+PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.bbk6750_66_m.so \
+ vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.y67.so \
+ vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.y67.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.bbk6750_66_m.so
 
 # mddb
 PRODUCT_COPY_FILES += \
