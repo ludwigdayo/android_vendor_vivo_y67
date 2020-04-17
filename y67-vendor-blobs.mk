@@ -225,7 +225,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
  vendor/vivo/y67/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
  vendor/vivo/y67/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
- vendor/vivo/y67/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/vivo/y67/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
  vendor/vivo/y67/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
@@ -421,7 +420,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
  vendor/vivo/y67/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
  vendor/vivo/y67/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
- vendor/vivo/y67/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
