@@ -95,6 +95,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/yamaha537fusiond:system/bin/yamaha537fusiond \
  vendor/vivo/y67/proprietary/etc/cdma_ecc_list.xml:system/etc/cdma_ecc_list.xml \
  vendor/vivo/y67/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
+ vendor/vivo/y67/proprietary/etc/trustzone.bin:system/etc/trustzone.bin \
  vendor/vivo/y67/proprietary/etc/audio_param/AudioParamOptions.xml:system/etc/audio_param/AudioParamOptions.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/PlaybackACF_AudioParam.xml:system/etc/audio_param/PlaybackACF_AudioParam.xml \
  vendor/vivo/y67/proprietary/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
@@ -223,7 +224,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
  vendor/vivo/y67/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
- vendor/vivo/y67/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
  vendor/vivo/y67/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
  vendor/vivo/y67/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
@@ -251,7 +251,10 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
  vendor/vivo/y67/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
  vendor/vivo/y67/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/vivo/y67/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
+ vendor/vivo/y67/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
  vendor/vivo/y67/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
+ vendor/vivo/y67/proprietary/lib/libfeatureio.jpg.so:system/lib/libfeatureio.jpg.so \
  vendor/vivo/y67/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/vivo/y67/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/vivo/y67/proprietary/lib/libfmcust.so:system/lib/libfmcust.so \
@@ -419,7 +422,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libbluetooth_relayer.so:system/lib64/libbluetooth_relayer.so \
  vendor/vivo/y67/proprietary/lib64/libBnMtkCodec.so:system/lib64/libBnMtkCodec.so \
  vendor/vivo/y67/proprietary/lib64/libbwc.so:system/lib64/libbwc.so \
- vendor/vivo/y67/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
  vendor/vivo/y67/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
@@ -444,7 +446,10 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
  vendor/vivo/y67/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
  vendor/vivo/y67/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
+ vendor/vivo/y67/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
+ vendor/vivo/y67/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
  vendor/vivo/y67/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
+ vendor/vivo/y67/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
  vendor/vivo/y67/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
  vendor/vivo/y67/proprietary/lib64/libfmcust.so:system/lib64/libfmcust.so \
  vendor/vivo/y67/proprietary/lib64/libgas.so:system/lib64/libgas.so \
