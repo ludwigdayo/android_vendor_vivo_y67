@@ -293,6 +293,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
  vendor/vivo/y67/proprietary/lib/libmemorydumper.so:system/lib/libmemorydumper.so \
  vendor/vivo/y67/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
+ vendor/vivo/y67/proprietary/lib/libmjc.so:system/lib/libmjc.so \
  vendor/vivo/y67/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
  vendor/vivo/y67/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
  vendor/vivo/y67/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
@@ -581,6 +582,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
  vendor/vivo/y67/proprietary/bin/mtkrild:system/bin/mtkrild \
  vendor/vivo/y67/proprietary/bin/mtkrildmd2:system/bin/mtkrildmd2 \
+ vendor/vivo/y67/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
  vendor/vivo/y67/proprietary/lib/libmal.so:system/lib/libmal.so \
  vendor/vivo/y67/proprietary/lib/libmal_datamngr.so:system/lib/libmal_datamngr.so \
  vendor/vivo/y67/proprietary/lib/libmal_epdga.so:system/lib/libmal_epdga.so \
@@ -596,6 +598,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
  vendor/vivo/y67/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
  vendor/vivo/y67/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
+ vendor/vivo/y67/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
  vendor/vivo/y67/proprietary/lib64/libmal.so:system/lib64/libmal.so \
  vendor/vivo/y67/proprietary/lib64/libmal_datamngr.so:system/lib64/libmal_datamngr.so \
  vendor/vivo/y67/proprietary/lib64/libmal_epdga.so:system/lib64/libmal_epdga.so \
