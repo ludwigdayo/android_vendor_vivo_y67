@@ -224,7 +224,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
  vendor/vivo/y67/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
  vendor/vivo/y67/proprietary/lib/libbwc.so:system/lib/libbwc.so \
- vendor/vivo/y67/proprietary/lib/libClearMotionFW.so:system/lib/libClearMotionFW.so \
  vendor/vivo/y67/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/vivo/y67/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
  vendor/vivo/y67/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
@@ -293,7 +292,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libmemoryDumpEncoder.so:system/lib/libmemoryDumpEncoder.so \
  vendor/vivo/y67/proprietary/lib/libmemorydumper.so:system/lib/libmemorydumper.so \
  vendor/vivo/y67/proprietary/lib/libmhalImageCodec.so:system/lib/libmhalImageCodec.so \
- vendor/vivo/y67/proprietary/lib/libmjc.so:system/lib/libmjc.so \
  vendor/vivo/y67/proprietary/lib/libmmprofile.so:system/lib/libmmprofile.so \
  vendor/vivo/y67/proprietary/lib/libmmprofile_jni.so:system/lib/libmmprofile_jni.so \
  vendor/vivo/y67/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
@@ -627,7 +625,7 @@ PRODUCT_COPY_FILES += \
 
 # mddb
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_07_08_09_57_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_07_08_09_57_1_ulwctg_n \
+ vendor/vivo/y67/proprietary/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_08_17_22_36_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1603.MD.MP_BBK6750_66_M_MOLY_LR11_W1603_MD_MP_V17_P165_2017_08_17_22_36_1_ulwctg_n \
  vendor/vivo/y67/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB \
  vendor/vivo/y67/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1603_MD_MP_V17_P165_1_ulwctg_n.EDB \
  vendor/vivo/y67/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat
