@@ -39,3 +39,9 @@ GPU     | Mali-T860
  * Camera
  * RIL(CDMA)
  * Tee(mcDeviceDaemon)
+
+# 致谢
+## [rote66](https://github.com/rote66)
+## [ReallySnow](https://github.com/ReallySnow)
+## [graineeg](https://github.com/graineeg)
+## [DeckerSU](https://github.com/DeckerSU)
