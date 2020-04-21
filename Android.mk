@@ -25,7 +25,6 @@ $(call add-radio-file,firmware/md1dsp.img)
 $(call add-radio-file,firmware/md1img.img)
 $(call add-radio-file,firmware/md3img.img)
 $(call add-radio-file,firmware/secro.img)
-$(call add-radio-file,firmware/survival.img)
 $(call add-radio-file,firmware/tee1.bin)
 $(call add-radio-file,firmware/tee2.bin)
 

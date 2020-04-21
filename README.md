@@ -1,7 +1,7 @@
 vivo y67(PD1612)
 ==============
 
-[device](https://github.com/BabQ/android_device_vivo_y67)
+### [device](https://github.com/BabQ/android_device_vivo_y67)
 
 ### 规格信息
 
