@@ -693,3 +693,18 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
  vendor/vivo/y67/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
  vendor/vivo/y67/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so
+
+# vivo cam
+PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_image_algorithm.so:system/lib/libarcsoft_beautyshot_image_algorithm.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_beautyshot_video_algorithm.so:system/lib/libarcsoft_beautyshot_video_algorithm.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_gender_detection.so:system/lib/libarcsoft_gender_detection.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_object_tracking.so:system/lib/libarcsoft_object_tracking.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
+ vendor/vivo/y67/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
+ vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so
