@@ -1,5 +1,3 @@
-lk.bin /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk
-logo.bin /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo
 md1arm7.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1arm7
 md1dsp.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1dsp
 md1img.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1img
