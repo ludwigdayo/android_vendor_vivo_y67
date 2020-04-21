@@ -17,9 +17,18 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),y67)
-ifeq ($(MTKPATH),)
+$(call add-radio-file,firmware/filesmap)
+$(call add-radio-file,firmware/lk.bin)
+$(call add-radio-file,firmware/logo.bin)
+$(call add-radio-file,firmware/md1arm7.img)
+$(call add-radio-file,firmware/md1dsp.img)
+$(call add-radio-file,firmware/md1img.img)
+$(call add-radio-file,firmware/md3img.img)
+$(call add-radio-file,firmware/secro.img)
+$(call add-radio-file,firmware/tee1.bin)
+$(call add-radio-file,firmware/tee2.bin)
 
-# Proprietary Modules go here
+ifeq ($(MTKPATH),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager

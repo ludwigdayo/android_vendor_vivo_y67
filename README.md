@@ -1,6 +1,8 @@
 vivo y67(PD1612)
 ==============
 
+[device](https://github.com/BabQ/android_device_vivo_y67)
+
 ### 规格信息
 
 类型     | 细节
@@ -28,10 +30,12 @@ GPU     | Mali-T860
  * MTP
  * Display
  * Thermal
- * flashlight
+ * Flashlight
  * OMX
+ * RIL(GSM)
+ * Goodix fingerprint
 
 ### 不工作:
  * Camera
- * RIL
- * Goodix fingerprint
+ * RIL(CDMA)
+ * Tee(mcDeviceDaemon)
