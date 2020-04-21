@@ -310,8 +310,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libmtk_vt_wrapper.so:system/lib/libmtk_vt_wrapper.so \
  vendor/vivo/y67/proprietary/lib/libmtkcamera_client.so:system/lib/libmtkcamera_client.so \
  vendor/vivo/y67/proprietary/lib/libmtkcam_fwkutils.so:system/lib/libmtkcam_fwkutils.so \
- vendor/vivo/y67/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
- vendor/vivo/y67/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
  vendor/vivo/y67/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/vivo/y67/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
  vendor/vivo/y67/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
@@ -488,8 +486,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libmtkcamera_client.so:system/lib64/libmtkcamera_client.so \
  vendor/vivo/y67/proprietary/lib64/libmtkcam_fwkutils.so:system/lib64/libmtkcam_fwkutils.so \
  vendor/vivo/y67/proprietary/lib64/libmtk_vt_wrapper.so:system/lib64/libmtk_vt_wrapper.so \
- vendor/vivo/y67/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
- vendor/vivo/y67/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so \
  vendor/vivo/y67/proprietary/lib64/libmtkjpeg.so:system/lib64/libmtkjpeg.so \
  vendor/vivo/y67/proprietary/lib64/libmtklimiter.so:system/lib64/libmtklimiter.so \
  vendor/vivo/y67/proprietary/lib/libm4u.so:system/lib/libm4u.so \
@@ -690,3 +686,12 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libcam_mmp.so:system/lib64/libcam_mmp.so \
  vendor/vivo/y67/proprietary/lib64/libcam.jni.lomohaljni.so:system/lib64/libcam.jni.lomohaljni.so \
  vendor/vivo/y67/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so
+
+# Tructzone(TEE)
+PRODUCT_COPY_FILES += \
+ vendor/vivo/y67/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
+ vendor/vivo/y67/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
+ vendor/vivo/y67/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
+ vendor/vivo/y67/proprietary/lib64/libLLVM.so:system/lib64/libLLVM.so \
+ vendor/vivo/y67/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
+ vendor/vivo/y67/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so
