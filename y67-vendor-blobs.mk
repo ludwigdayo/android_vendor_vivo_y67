@@ -689,9 +689,7 @@ PRODUCT_COPY_FILES += \
 
 # Tructzone(TEE)
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
  vendor/vivo/y67/proprietary/lib/libMtkH264SecVdecTLCLib.so:system/lib/libMtkH264SecVdecTLCLib.so \
  vendor/vivo/y67/proprietary/lib/libMtkH264SecVencTLCLib.so:system/lib/libMtkH264SecVencTLCLib.so \
- vendor/vivo/y67/proprietary/lib64/libLLVM.so:system/lib64/libLLVM.so \
  vendor/vivo/y67/proprietary/lib64/libMtkH264SecVdecTLCLib.so:system/lib64/libMtkH264SecVdecTLCLib.so \
  vendor/vivo/y67/proprietary/lib64/libMtkH264SecVencTLCLib.so:system/lib64/libMtkH264SecVencTLCLib.so
