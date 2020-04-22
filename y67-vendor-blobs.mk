@@ -395,7 +395,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6750.so:system/lib/hw/memtrack.mt6750.so \
  vendor/vivo/y67/proprietary/lib/hw/sensors.mt6750.so:system/lib/hw/sensors.mt6750.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib/hw/gps.mt6750.so:system/lib/hw/gps.mt6750.so \
  vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6750.so:system/lib/hw/mmsdk.mt6750.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
@@ -547,7 +546,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6750.so:system/lib64/hw/memtrack.mt6750.so \
  vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6750.so:system/lib64/hw/sensors.mt6750.so \
  vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib64/hw/gps.mt6750.so:system/lib64/hw/gps.mt6750.so \
  vendor/vivo/y67/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
