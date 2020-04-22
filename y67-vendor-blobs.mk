@@ -385,18 +385,18 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/volte_imsm.so:system/lib/volte_imsm.so \
  vendor/vivo/y67/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
  vendor/vivo/y67/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
- vendor/vivo/y67/proprietary/lib/hw/radio.fm.mt6755.so:system/lib/hw/radio.fm.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/audio.primary.mt6755.so:system/lib/hw/audio.primary.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/camera.mt6755.so:system/lib/hw/camera.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/gralloc.mt6755.so:system/lib/hw/gralloc.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/hwcomposer.mt6755.so:system/lib/hw/hwcomposer.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/keystore.mt6755.so:system/lib/hw/keystore.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/lights.mt6755.so:system/lib/hw/lights.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6755.so:system/lib/hw/memtrack.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/sensors.mt6755.so:system/lib/hw/sensors.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/radio.fm.mt6750.so:system/lib/hw/radio.fm.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/audio.primary.mt6750.so:system/lib/hw/audio.primary.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/camera.mt6750.so:system/lib/hw/camera.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/gralloc.mt6750.so:system/lib/hw/gralloc.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/hwcomposer.mt6750.so:system/lib/hw/hwcomposer.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/keystore.mt6750.so:system/lib/hw/keystore.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/lights.mt6750.so:system/lib/hw/lights.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/memtrack.mt6750.so:system/lib/hw/memtrack.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/sensors.mt6750.so:system/lib/hw/sensors.mt6750.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib/hw/gps.mt6755.so:system/lib/hw/gps.mt6755.so \
- vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6755.so:system/lib/hw/mmsdk.mt6755.so \
+ vendor/vivo/y67/proprietary/lib/hw/gps.mt6750.so:system/lib/hw/gps.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/mmsdk.mt6750.so:system/lib/hw/mmsdk.mt6750.so \
  vendor/vivo/y67/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/vivo/y67/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/vivo/y67/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
@@ -538,16 +538,16 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/mtk-rilproxy.so:system/lib64/mtk-rilproxy.so \
  vendor/vivo/y67/proprietary/lib64/volte_imsm.so:system/lib64/volte_imsm.so \
  vendor/vivo/y67/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
- vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6755.so:system/lib64/hw/audio.primary.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/camera.mt6755.so:system/lib64/hw/camera.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/gralloc.mt6755.so:system/lib64/hw/gralloc.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/hwcomposer.mt6755.so:system/lib64/hw/hwcomposer.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6755.so:system/lib64/hw/keystore.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/lights.mt6755.so:system/lib64/hw/lights.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6755.so:system/lib64/hw/memtrack.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6755.so:system/lib64/hw/sensors.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/audio.primary.mt6750.so:system/lib64/hw/audio.primary.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/camera.mt6750.so:system/lib64/hw/camera.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gralloc.mt6750.so:system/lib64/hw/gralloc.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/hwcomposer.mt6750.so:system/lib64/hw/hwcomposer.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/keystore.mt6750.so:system/lib64/hw/keystore.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/lights.mt6750.so:system/lib64/hw/lights.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/memtrack.mt6750.so:system/lib64/hw/memtrack.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/sensors.mt6750.so:system/lib64/hw/sensors.mt6750.so \
  vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/libMcGatekeeper.so \
- vendor/vivo/y67/proprietary/lib64/hw/gps.mt6755.so:system/lib64/hw/gps.mt6755.so \
+ vendor/vivo/y67/proprietary/lib64/hw/gps.mt6750.so:system/lib64/hw/gps.mt6750.so \
  vendor/vivo/y67/proprietary/vendor/etc/yas_set.cfg:system/vendor/etc/yas_set.cfg \
  vendor/vivo/y67/proprietary/vendor/lib/libfrsdk.so:system/vendor/lib/libfrsdk.so \
  vendor/vivo/y67/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
@@ -612,12 +612,10 @@ PRODUCT_COPY_FILES += \
 
 # gatekeeper
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.bbk6750_66_m.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.y67.so \
- vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.mt6755.so \
- vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.y67.so \
- vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.bbk6750_66_m.so
+ vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.mt6750.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.y67.so
 
 # mddb
 PRODUCT_COPY_FILES += \
