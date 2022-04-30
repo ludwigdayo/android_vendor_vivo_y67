@@ -1,7 +1,6 @@
+lk.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/lk
+logo.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/logo
 md1arm7.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1arm7
 md1dsp.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1dsp
 md1img.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md1img
 md3img.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/md3img
-secro.img /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/secro
-tee1.bin /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee1
-tee2.bin /dev/block/platform/mtk-msdc.0/11230000.msdc0/by-name/tee2
