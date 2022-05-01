@@ -202,7 +202,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
  vendor/vivo/y67/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
  vendor/vivo/y67/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
- vendor/vivo/y67/proprietary/lib/libaudiopolicymanager.so:system/lib/libaudiopolicymanager.so \
  vendor/vivo/y67/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
  vendor/vivo/y67/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
  vendor/vivo/y67/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
@@ -395,7 +394,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
  vendor/vivo/y67/proprietary/lib64/libaudiocomponentengine.so:system/lib64/libaudiocomponentengine.so \
  vendor/vivo/y67/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
- vendor/vivo/y67/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
  vendor/vivo/y67/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
  vendor/vivo/y67/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
  vendor/vivo/y67/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
@@ -584,8 +582,9 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
  vendor/vivo/y67/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/vivo/y67/proprietary/lib64/librpcril.so:system/lib64/librpcril.so \
- vendor/vivo/y67/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
- vendor/vivo/y67/proprietary/lib/libdpframework.so:system/lib/libdpframework.so
+ vendor/vivo/y67/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
+ vendor/vivo/y67/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so
+ 
 
 # gatekeeper
 PRODUCT_COPY_FILES += \
