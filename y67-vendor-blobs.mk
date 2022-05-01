@@ -685,7 +685,8 @@ PRODUCT_COPY_FILES += \
  
  # gps
 PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib64/hw/gps.mt6750.so:system/lib64/hw/gps.mt6750.so
+ vendor/vivo/y67/proprietary/lib64/hw/gps.mt6750.so:system/lib64/hw/gps.mt6750.so \
+ vendor/vivo/y67/proprietary/lib/hw/gps.mt6750.so:system/lib/hw/gps.mt6750.so
 
 # from other nought device
 PRODUCT_COPY_FILES += \
