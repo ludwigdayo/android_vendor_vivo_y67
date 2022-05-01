@@ -590,8 +590,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.y67.so \
  vendor/vivo/y67/proprietary/lib/hw/libMcGatekeeper.so:system/lib/hw/gatekeeper.mt6750.so \
- vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.mt6750.so \
- vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.y67.so
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.y67.so \
+ vendor/vivo/y67/proprietary/lib64/hw/libMcGatekeeper.so:system/lib64/hw/gatekeeper.mt6750.so
 
 # mddb
 PRODUCT_COPY_FILES += \
