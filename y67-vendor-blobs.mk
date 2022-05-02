@@ -86,6 +86,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/bin/volte_imcb:system/bin/volte_imcb \
  vendor/vivo/y67/proprietary/bin/volte_stack:system/bin/volte_stack \
  vendor/vivo/y67/proprietary/bin/volte_ua:system/bin/volte_ua \
+ vendor/vivo/y67/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/vivo/y67/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/vivo/y67/proprietary/bin/wmt_loader:system/bin/wmt_loader \
  vendor/vivo/y67/proprietary/bin/xlog:system/bin/xlog \
@@ -444,6 +445,7 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
  vendor/vivo/y67/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
  vendor/vivo/y67/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
+ vendor/vivo/y67/proprietary/lib64/libimsma_rtp.so:system/lib64/libimsma_rtp.so \
  vendor/vivo/y67/proprietary/lib64/libimsma_socketwrapper.so:system/lib64/libimsma_socketwrapper.so \
  vendor/vivo/y67/proprietary/lib64/libimsma.so:system/lib64/libimsma.so \
  vendor/vivo/y67/proprietary/lib64/libion_mtk.so:system/lib64/libion_mtk.so \
