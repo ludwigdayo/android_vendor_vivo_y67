@@ -684,13 +684,6 @@ PRODUCT_COPY_FILES += \
  vendor/vivo/y67/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
  vendor/vivo/y67/proprietary/lib/libarcsoft_piczoom.so:system/lib/libarcsoft_piczoom.so \
  vendor/vivo/y67/proprietary/lib/libvivoSceneChgDetect.so:system/lib/libvivoSceneChgDetect.so
- 
- # gps
-PRODUCT_COPY_FILES += \
- vendor/vivo/y67/proprietary/lib64/hw/gps.mt6750.so:system/lib64/hw/gps.mt6750.so \
- vendor/vivo/y67/proprietary/lib/hw/gps.mt6750.so:system/lib/hw/gps.mt6750.so \
- vendor/vivo/y67/proprietary/lib/libavlm.so:system/lib/libavlm.so \
- vendor/vivo/y67/proprietary/lib64/libavlm.so:system/lib64/libavlm.so
 
 # from other nought device
 PRODUCT_COPY_FILES += \
