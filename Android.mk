@@ -25,8 +25,6 @@ $(call add-radio-file,firmware/md1arm7.img)
 $(call add-radio-file,firmware/md1dsp.img)
 $(call add-radio-file,firmware/md1img.img)
 $(call add-radio-file,firmware/md3img.img)
-endif
-
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiopolicymanager
@@ -48,3 +46,24 @@ LOCAL_MULTILIB := 64
 LOCAL_SRC_FILES_64 := proprietary/lib64/libaudiopolicymanager.so
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdpframework
+LOCAL_MODULE_OWNER := vivo
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 32
+LOCAL_SRC_FILES_32 := proprietary/lib/libdpframework.so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libdpframework
+LOCAL_MODULE_OWNER := vivo
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MULTILIB := 64
+LOCAL_SRC_FILES_64 := proprietary/lib64/libdpframework.so
+include $(BUILD_PREBUILT)
+
+endif
