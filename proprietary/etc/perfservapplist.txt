@@ -1,0 +1,8 @@
+CMD_SET_CPU_CORE_MIN com.imangi.templerun2 3
+CMD_SET_PACK_TIMEOUT com.kiloo.subwaysurf  20
+CMD_SET_PACK_TIMEOUT com.imangi.templerun2  20
+CMD_SET_PACK_BOOST_MODE com.imangi.templerun2 8
+CMD_SET_PACK_BOOST_MODE com.kiloo.subwaysurf 8
+CMD_SET_CPU_CORE_BIG_LITTLE_MIN com.tencent.tmgp.sgame 3 3
+CMD_SET_CPU_UP_THRESHOLD com.tencent.tmgp.sgame 65
+CMD_SET_CPU_DOWN_THRESHOLD com.tencent.tmgp.sgame 50

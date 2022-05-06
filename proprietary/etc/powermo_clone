@@ -1,0 +1,139 @@
+package-name com.tencent.mm
+package-name com.microsoft.office.onenote
+package-name com.tencent.mobileqq
+package-name com.qzone
+package-name com.tencent.qqlite
+package-name com.duowan.mobile
+package-name wind.android
+package-name com.jingdong.app.mall
+package-name com.hexin.plat.android
+package-name com.android.dazhihui
+package-name com.zengame.ttermj.p365you
+package-name com.tmall.wireless
+package-name com.sina.weibo
+// dezoupuke
+package-name com.rao.love.yy.texaspoker
+package-name com.taobao.taobao
+// zhaoshangzhiyuanlicai
+package-name com.cmschina
+//  zhifubao
+package-name com.eg.android.AlipayGphone
+// wangxin
+package-name com.alibaba.mobileim
+package-name com.qqgame.hlddz
+// huanlemajiang quanji
+package-name com.qqgame.happymj
+package-name com.baidu.tieba
+package-name com.meilishuo
+package-name com.tencent.WBlog
+// zixuangu
+package-name com.tencent.portfolio
+package-name com.mogujie
+package-name com.douban.frodo
+package-name com.immomo.momo
+package-name com.sankuai.meituan
+package-name com.tuan800.tao800
+package-name com.dianping.v1
+package-name com.sdu.didi.psnger
+
+com.tencent.mm tencent
+com.tencent.mm tbslog
+
+com.tencent.mobileqq tencent
+com.tencent.mobileqq Tencent
+com.tencent.mobileqq tbslog
+// com.tencent.mobileqq DCIM
+
+com.qzone Tencent
+com.qzone tbslog
+// com.qzone DCIM
+
+com.tencent.qqlite tencent
+
+com.duowan.mobile yymobile
+com.duowan.mobile com.yy.pushsvc
+com.duowan.mobile hiido_statis
+com.duowan.mobile ShareSDK
+
+wind.android Wind
+
+com.jingdong.app.mall JDIM
+com.jingdong.app.mall com.jingdong.app.mall
+com.jingdong.app.mall jingdong
+com.jingdong.app.mall log
+com.jingdong.app.mall baidu
+
+com.hexin.plat.android cache
+
+com.android.dazhihui baidu
+
+com.zengame.ttermj.p365you 365youGame
+com.zengame.ttermj.p365you baidu
+com.zengame.ttermj.p365you wostoresecurity
+
+// com.tmall.wireless DCIM/TmallPic
+
+com.sina.weibo sina
+
+// com.taobao.taobao Pictures
+com.taobao.taobao .DataStorage
+com.taobao.taobao .SystemConfig
+com.taobao.taobao .UTSystemConfig
+com.taobao.taobao .com.taobao.dp
+com.taobao.taobao UCDownloads
+
+com.eg.android.AlipayGphone com.eg.android.AlipayGphone
+
+com.alibaba.mobileim wangxin
+
+com.qqgame.hlddz Log
+com.qqgame.hlddz Tencent
+// com.qqgame.hlddz 1842851842.png
+// com.qqgame.hlddz 1888991732.png
+// com.qqgame.hlddz 664268618.png
+// com.qqgame.hlddz 958768539.png
+// com.qqgame.hlddz qq1408279728
+
+com.qqgame.happymj Log
+com.qqgame.happymj Tencent
+
+com.baidu.tieba tieba
+com.baidu.tieba baidu
+com.baidu.tieba backups
+com.baidu.tieba .BD_SAPI_CACHE
+com.baidu.tieba moplus
+
+com.meilishuo Tencent
+com.meilishuo meilishuo
+com.meilishuo mls_photo
+// com.meilishuo Pictures
+
+com.tencent.WBlog Tencent
+
+com.tencent.portfolio tencent
+
+com.mogujie Tencent
+com.mogujie libs
+com.mogujie mogujie
+com.mogujie system
+
+// com.douban.frodo Pictures
+
+com.immomo.momo baidu
+com.immomo.momo com.immomo.momo
+com.immomo.momo immomo
+com.immomo.momo wostoresecurity
+
+//didi
+com.sdu.didi.psnger .DataStorage
+com.sdu.didi.psnger .UTSystemConfig
+com.sdu.didi.psnger .tcookieid
+com.sdu.didi.psnger ShareSDK
+com.sdu.didi.psnger didi
+com.sdu.didi.psnger didi_gcsdk
+com.sdu.didi.psnger didilocate
+com.sdu.didi.psnger libs
+com.sdu.didi.psnger sysdata
+com.sdu.didi.psnger system
+//com.sdu.didi.psnger tencentmapsdk
+
